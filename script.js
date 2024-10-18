@@ -502,18 +502,23 @@ document.addEventListener("DOMContentLoaded", () => {
     })
         switch (choosen_sorting){
         case `Name`:
+            console.log(...namesSorting)
             break;
 
         case `Team`:
+            console.log(...teamsSorting)
             break;
 
         case `Points`:
+            console.log(...pointsSorting)
             break;
 
         case `Rebounds`:
+            console.log(...reboundsSorting)
             break;
 
         case `Assists`:
+            console.log(...assistsSorting)
             break;
 
         default:
